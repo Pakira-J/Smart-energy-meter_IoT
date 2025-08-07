@@ -2,6 +2,8 @@
  * Smart Energy Meter with ESP32, PZEM-004T, and 20x4 LCD
  * Features: Real-time monitoring with Blynk IoT integration
  * Author: Joydeep Pakira
+ * Note: Parameters like "TEMPLATE_ID", "TEMPLATE_NAME" and "AUTH_TOKEN" are modified for safety reason.
+ *       Kindly replace the dummy parameters with your own unique parameters for smooth execution of code.
  */
 
 #define BLYNK_TEMPLATE_ID "TEMPLATE_ID"
