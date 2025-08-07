@@ -26,11 +26,11 @@
 
 
 
-\## ⚡ Project Overview
+⚡ Project Overview
 
 
 
-The \*\*Smart Energy Meter\*\* is a compact embedded system that uses an \*\*ESP32 microcontroller\*\* and \*\*PZEM-004T multifunctional electric sensor\*\* to measure \*\*real-time voltage, current, power, and energy consumption\*\*. The data is pushed to the \*\*Blynk IoT platform\*\* for wireless remote monitoring via a mobile dashboard and web app.
+The **Smart Energy Meter** is a compact embedded system that uses an **ESP32 microcontroller** and **PZEM-004T multifunctional electric sensor** to measure *real-time voltage, current, power, and energy consumption*. The data is pushed to the **Blynk IoT platform** for wireless remote monitoring via a mobile dashboard and web app.
 
 
 
@@ -42,25 +42,45 @@ The \*\*Smart Energy Meter\*\* is a compact embedded system that uses an \*\*ESP
 
 
 
-\## 🧠 Tech Stack \& Components
+<h3>🧠 Tech Stack \& Components</h3>
 
 
 
-| Category        | Tools/Hardware      |
+<table>
+  <thead>
+    <tr>
+      <th>Category</th>
+      <th>Tools / Hardware</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Microcontroller</td>
+      <td>ESP32 Wi-Fi Module</td>
+    </tr>
+    <tr>
+      <td>Energy Sensor</td>
+      <td>PZEM-004T (v3.0)</td>
+    </tr>
+    <tr>
+      <td>IoT Platform</td>
+      <td>Blynk (mobile app)</td>
+    </tr>
+    <tr>
+      <td>IDE</td>
+      <td>Arduino IDE</td>
+    </tr>
+    <tr>
+      <td>Communication</td>
+      <td>UART (Serial)</td>
+    </tr>
+    <tr>
+      <td>Version Control</td>
+      <td>Git + GitHub</td>
+    </tr>
+  </tbody>
+</table>
 
-|-----------------|---------------------|
-
-| Microcontroller | ESP32 Wi-Fi Module  |
-
-| Energy Sensor   | PZEM-004T (v3.0)    |
-
-| IoT Platform    | Blynk (mobile app)  |
-
-| IDE             | Arduino IDE         |
-
-| Communication   | UART (Serial)       |
-
-| Version Control | Git + GitHub        |
 
 
 
@@ -68,7 +88,7 @@ The \*\*Smart Energy Meter\*\* is a compact embedded system that uses an \*\*ESP
 
 
 
-\## 🏗️ Features
+<h3>🏗️ Features</h3>
 
 
 
@@ -88,7 +108,7 @@ The \*\*Smart Energy Meter\*\* is a compact embedded system that uses an \*\*ESP
 
 
 
-\## 🖼️ Project Media
+<h3>🖼️ Project Media</h3>
 
 
 
@@ -106,7 +126,7 @@ The \*\*Smart Energy Meter\*\* is a compact embedded system that uses an \*\*ESP
 
 
 
-\## 🛠️ Circuit Schematic
+<h3>🛠️ Circuit Schematic</h3>
 
 
 
@@ -136,11 +156,11 @@ The \*\*Smart Energy Meter\*\* is a compact embedded system that uses an \*\*ESP
 
 <h1 align="center">⚡ Smart Energy Monitor using ESP32 + PZEM-004T + Blynk</h1>
 
-<p align="center">
+<h3 align="center">
 
-&nbsp; 🔌 Real-time Power Monitoring • 📲 Mobile Dashboard • ☁️ IoT Integration
+&nbsp; 🔌 *Real-time Power Monitoring* • 📲 *Mobile Dashboard* • ☁️ *IoT Integration*
 
-</p>
+</h3>
 
 
 
@@ -148,46 +168,47 @@ The \*\*Smart Energy Meter\*\* is a compact embedded system that uses an \*\*ESP
 
 
 
-\## 🚀 How It Works (Workflow)
+<h3>🚀 How It Works (Workflow)</h3>
+
 <table>
 
-&nbsp; <tr>
+ <tr>
 
-&nbsp;   <th>Step</th><th>Description</th>
+<th>Step</th><th>Description</th>
 
-&nbsp; </tr>
+</tr>
 
-&nbsp; <tr>
+<tr>
 
-&nbsp;   <td>🔌 ESP32 UART Setup</td>
+<td>🔌 ESP32 UART Setup</td>
 
-&nbsp;   <td>Initializes UART communication with the PZEM-004T sensor.</td>
+<td>Initializes UART communication with the PZEM-004T sensor.</td>
 
-&nbsp; </tr>
+</tr>
 
-&nbsp; <tr>
+<tr>
 
-&nbsp;   <td>⚡ Sensor Reads Data</td>
+<td>⚡ Sensor Reads Data</td>
 
-&nbsp;   <td>Measures Voltage, Current, Power, and Energy from the connected load.</td>
+ <td>Measures Voltage, Current, Power, and Energy from the connected load.</td>
 
-&nbsp; </tr>
+</tr>
 
-&nbsp; <tr>
+<tr>
 
-&nbsp;   <td>📡 Wi-Fi Transmission</td>
+<td>📡 Wi-Fi Transmission</td>
 
-&nbsp;   <td>ESP32 connects to Wi-Fi and transmits live data to the Blynk cloud server.</td>
+<td>ESP32 connects to Wi-Fi and transmits live data to the Blynk cloud server.</td>
 
-&nbsp; </tr>
+</tr>
 
-&nbsp; <tr>
+<tr>
 
-&nbsp;   <td>📲 Mobile Dashboard</td>
+<td>📲 Mobile Dashboard</td>
 
-&nbsp;   <td>Displays data in real time via the Blynk mobile application.</td>
+<td>Displays data in real time via the Blynk mobile application.</td>
 
-&nbsp; </tr>
+</tr>
 
 </table>
 
@@ -197,41 +218,30 @@ The \*\*Smart Energy Meter\*\* is a compact embedded system that uses an \*\*ESP
 
 
 
-\## 🔒 Security \& Safety Notes
+<h3>🔒 Security & Safety Notes</h3>
 
-
-
-| ⚠️ Concern               | 🔍 Details                                                               |
-
-|--------------------------|----------------------------------------------------------------------------|
-
-| 🛡️ Authentication       | No user authentication – Blynk token is hardcoded.                         |
-
-| ⚡ Mains Voltage Risk   | Not safe for direct mains usage without proper insulation \& isolation.    |
-
-| 🎓 Usage Type           | Strictly for \*\*educational/demo\*\* purposes. Not production-grade.      |
-
-
-
----
-
-
-
-\## 🧩 Future Improvements
-
-
-
-| 💡 Feature               | 📌 Purpose                                                                |
-
-|--------------------------|----------------------------------------------------------------------------|
-
-| ☁️ Cloud Sync           | Integrate with Firebase, ThingSpeak, or MQTT for analytics \& remote access |
-
-| 🔌 Remote Relay Control | Cut off power to load using Blynk app + Relay module                       |
-
-| 📊 Data Logging         | Log data locally to SD card or sync to Google Sheets API                   |
-
-| 📤 Offline Backup       | Add EEPROM or local storage fallback for Wi-Fi dropouts                    |
+<table>
+  <thead>
+    <tr>
+      <th>⚠️ Concern</th>
+      <th>🔍 Details</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>🛡️ Authentication</td>
+      <td>No user authentication – Blynk token is hardcoded.</td>
+    </tr>
+    <tr>
+      <td>⚡ Mains Voltage Risk</td>
+      <td>Not safe for direct mains usage without proper insulation &amp; isolation.</td>
+    </tr>
+    <tr>
+      <td>🎓 Usage Type</td>
+      <td><strong>Strictly for educational/demo purposes.</strong> Not production-grade.</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
@@ -239,23 +249,35 @@ The \*\*Smart Energy Meter\*\* is a compact embedded system that uses an \*\*ESP
 
 
 
-\## 🧠 What I Learned
+<h3>🧩 Future Improvements</h3>
 
+<table>
+  <thead>
+    <tr>
+      <th>💡 Feature</th>
+      <th>📌 Purpose</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>☁️ Cloud Sync</td>
+      <td>Integrate with Firebase, ThingSpeak, or MQTT for analytics &amp; remote access</td>
+    </tr>
+    <tr>
+      <td>🔌 Remote Relay Control</td>
+      <td>Cut off power to load using Blynk app + Relay module</td>
+    </tr>
+    <tr>
+      <td>📊 Data Logging</td>
+      <td>Log data locally to SD card or sync to Google Sheets API</td>
+    </tr>
+    <tr>
+      <td>📤 Offline Backup</td>
+      <td>Add EEPROM or local storage fallback for Wi-Fi dropouts</td>
+    </tr>
+  </tbody>
+</table>
 
-
-| 🛠️ Area                   | 📘 Skills Gained                                                          |
-
-|----------------------------|----------------------------------------------------------------------------|
-
-| 🔧 Embedded Communication | UART protocol with energy meter (PZEM)                                     |
-
-| ⚙️ Sensor Integration     | Real-time data handling, parsing, and calibration                          |
-
-| 🌐 IoT Networking         | Blynk setup, Wi-Fi config, and mobile dashboard deployment                 |
-
-| 🔗 GitHub Versioning      | Structured commits, branch management, and clean documentation             |
-
-| 📝 Technical Writing      | Recruiter-ready README \& project explanations                             |
 
 
 
@@ -263,11 +285,51 @@ The \*\*Smart Energy Meter\*\* is a compact embedded system that uses an \*\*ESP
 
 
 
-\## ⚙️ How to the run this project
+<h2>🧠 What I Learned</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>🛠️ Area</th>
+      <th>📘 Skills Gained</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>🔧 Embedded Communication</td>
+      <td>UART protocol with energy meter (PZEM)</td>
+    </tr>
+    <tr>
+      <td>⚙️ Sensor Integration</td>
+      <td>Real-time data handling, parsing, and calibration</td>
+    </tr>
+    <tr>
+      <td>🌐 IoT Networking</td>
+      <td>Blynk setup, Wi-Fi config, and mobile dashboard deployment</td>
+    </tr>
+    <tr>
+      <td>🔗 GitHub Versioning</td>
+      <td>Structured commits, branch management, and clean documentation</td>
+    </tr>
+    <tr>
+      <td>📝 Technical Writing</td>
+      <td>Recruiter-ready README &amp; project explanations</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
-\- 1. Clone the repo: git clone [https://github.com/yourusername/SmartEnergyMonitor.git](https://github.com/Pakira-J/Smart-energy-meter_IoT.git)
+
+---
+
+
+
+<h3>⚙️ How to the run this project</h3>
+
+
+
+\- 1. Clone the repo: git clone https://github.com/Pakira-J/Smart-energy-meter_IoT.git
 
 \- 2. Open firmware /in Arduino IDE
 
@@ -290,7 +352,7 @@ The \*\*Smart Energy Meter\*\* is a compact embedded system that uses an \*\*ESP
 
 
 
-<p align="center"> <b>Built with 💻, 📱, and 🔌 by Joydeep Pakira</b> <br/> <a href="https://www.linkedin.com/in/pakira-joydeep/">🔗 Connect on LinkedIn</a> | <a href="mailto:pakira.joydeep@gmail.com">📧 Mail</a> </p> ```
+<h1 align="center"> <b>Built with 💻, 📱, and 🔌 by Joydeep Pakira</b> <br/> <a href="https://www.linkedin.com/in/pakira-joydeep/">🔗 Connect on LinkedIn</a> | <a href="mailto:pakira.joydeep@gmail.com">📧 e-mail</a> </h1> ```
 
 
 ---
@@ -298,7 +360,7 @@ The \*\*Smart Energy Meter\*\* is a compact embedded system that uses an \*\*ESP
 
 
 
-\## 📂 Folder Structure
+<h3>📂 Folder Structure</h3>
 
 
 
@@ -323,6 +385,7 @@ Smart-Energy-Meter-IoT/
 ├── README.md
 
 └── LICENSE
+
 
 
 
