@@ -4,7 +4,7 @@
 
 <p align="center">
 
-&nbsp; <img src="Images/device\_real\_photo.jpg" width="300" alt="Smart Energy Meter Device" />
+&nbsp; <img src="Images/device_real_photo.jpg" width="300" alt="Smart Energy Meter Device" />
 
 </p>
 
@@ -114,9 +114,9 @@ The **Smart Energy Meter** is a compact embedded system that uses an **ESP32 mic
 
 <p float="left">
 
-&nbsp; <img src="Images/device\_real\_photo.jpg" width="300" alt="Device Hardware"/>
+&nbsp; <img src="Images/device_real_photo.jpg" width="300" alt="Device Hardware"/>
 
-&nbsp; <img src="Images/mobile\_app\_screenshot.jpg" width="300" alt="Blynk App Screenshot"/>
+&nbsp; <img src="Images/mobile_app_screenshot.png" width="300" alt="Blynk App Screenshot"/>
 
 </p>
 
@@ -132,7 +132,7 @@ The **Smart Energy Meter** is a compact embedded system that uses an **ESP32 mic
 
 <p align="center">
 
-&nbsp; <img src="Schematics/circuit\_diagram.png" width="500" alt="Wiring Diagram" />
+&nbsp; <img src="Schematics/circuit_diagram.jpg" width="500" alt="Wiring Diagram" />
 
 </p>
 
@@ -385,6 +385,7 @@ Smart-Energy-Meter-IoT/
 ├── README.md
 
 └── LICENSE
+
 
 
 
