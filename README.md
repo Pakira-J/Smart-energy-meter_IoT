@@ -357,7 +357,10 @@ The **Smart Energy Meter** is a compact embedded system that uses an **ESP32 mic
 
 ---
 
+<h4 align="center"> <b>📄 License:</b> <i>This project is licensed under the MIT License. You are free to use the content in this repository for any purpose — if you want to appreciate my work, just consider dropping a ⭐ to the repo. Thank you! 😊</i></h4>
 
+
+---
 
 
 <h3>📂 Folder Structure</h3>
@@ -368,23 +371,15 @@ The **Smart Energy Meter** is a compact embedded system that uses an **ESP32 mic
 
 Smart-Energy-Meter-IoT/
 
-├── smart\_energy\_meter/
-
-│   └── smart\_energy\_meter.ino
-
+├── smart_energy_meter.ino
 ├── Images/
-
-│   ├── device\_real\_photo.jpg
-
-│   └── mobile\_app\_screenshot.jpg
-
+│   ├── device_real_photo.jpg
+│   └── mobile_app_screenshot.jpg
 ├── Schematics/
-
-│   └── circuit\_diagram.pdf
-
+│   └── circuit_diagram.pdf
 ├── README.md
-
 └── LICENSE
+
 
 
 
