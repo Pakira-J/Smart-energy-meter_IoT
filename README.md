@@ -149,9 +149,6 @@ The \*\*Smart Energy Meter\*\* is a compact embedded system that uses an \*\*ESP
 
 
 \## 🚀 How It Works (Workflow)
-
-
-
 <table>
 
 &nbsp; <tr>
@@ -270,7 +267,7 @@ The \*\*Smart Energy Meter\*\* is a compact embedded system that uses an \*\*ESP
 
 
 
-\- 1. Clone the repo: git clone https://github.com/yourusername/SmartEnergyMonitor.git
+\- 1. Clone the repo: git clone [https://github.com/yourusername/SmartEnergyMonitor.git](https://github.com/Pakira-J/Smart-energy-meter_IoT.git)
 
 \- 2. Open firmware /in Arduino IDE
 
@@ -326,6 +323,7 @@ Smart-Energy-Meter-IoT/
 ├── README.md
 
 └── LICENSE
+
 
 
 
